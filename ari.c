@@ -9,42 +9,39 @@ string ari(string x){
     s++;
    if(x[i]=='!')
      s++;   }
-   printf("%i %i %i \n",c,w,s);
     float index= 4.71*(float)c/w + 0.5*(float)w/s -21.43;
     int ARI=ceil(index);
-    printf("%f %i\n",index,ARI);
-    
+      
 
     switch(ARI) { 
-    case 1:printf("Kindergarten");
+    case 1:return("Kindergarten");
            break;
-    case 2:printf("First/Second Grade");
+    case 2:return("First/Second Grade");
            break;
-    case 3:printf("Third Grade");
+    case 3:return("Third Grade");
            break;
-    case 4:printf("Fourth Grade");
+    case 4:return("Fourth Grade");
            break;
-    case 5:printf("Fifth Grade");
+    case 5:return("Fifth Grade");
            break;                            
-    case 6:printf("Sixth Grade");
+    case 6:return("Sixth Grade");
            break;       
-    case 7:printf("Seventh Grade");
+    case 7:return("Seventh Grade");
            break;
-    case 8:printf("Eighth Grade");
+    case 8:return("Eighth Grade");
            break;       
-    case 9:printf("Ninth Grade");
+    case 9:return("Ninth Grade");
            break;
-    case 10:printf("Tenth Grade");
+    case 10:return("Tenth Grade");
            break;
-    case 11:printf("Eleventh Grade");
+    case 11:return("Eleventh Grade");
            break;
-    case 12:printf("Twelfth grade");
+    case 12:return("Twelfth grade");
            break;
-    case 13:printf("College student");
+    case 13:return("College student");
            break;
-    case 14:printf("Professor");
+    case 14:return("Professor");
            break;  
-    default:printf("Not in the list");
-           break;                  
+    default:printf("Not in the list");                       
            }
           } 
