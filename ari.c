@@ -48,6 +48,6 @@ string ari(string x){
            break;
     case 14:return("Professor");
            break;  
-    default:printf("Not in the list");                       
+    default:return("Not in the list");                       
            }
           } 
