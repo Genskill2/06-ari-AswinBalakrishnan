@@ -1,4 +1,4 @@
-string ari(string x){
+char* ari(char* x){
  int c=0,w=0,s=0;
   for(int i=0;i<strlen(x);i++){
    if(isalnum(x[i]))
