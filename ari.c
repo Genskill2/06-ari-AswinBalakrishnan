@@ -2,8 +2,9 @@
 #include <string.h>
 #include <cs50.h>
 #include <math.h>
+#include <ctype.h>
 
-char* ari(char* x){
+string ari(string x){
  int c=0,w=0,s=0;
   for(int i=0;i<strlen(x);i++){
    if(isalnum(x[i]))
